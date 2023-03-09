@@ -8,10 +8,10 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
-    /// Compile and execute simple expressions using BsonDocuments. Used in indexes and updates operations. See https://github.com/mbdavid/LiteDB/wiki/Expressions
+    /// Compile and execute simple expressions using BsonDocuments. Used in indexes and updates operations. See https://github.com/mbdavid/LiteDBv4/wiki/Expressions
     /// </summary>
     public partial class BsonExpression
     {

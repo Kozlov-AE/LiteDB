@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.IO;
 
-namespace LiteDB.Tests.Engine
+namespace LiteDBv4.Tests.Engine
 {
     [TestClass]
     public class ReadOnly_Tests

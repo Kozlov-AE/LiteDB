@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LiteDB.Tests.Shell
+namespace LiteDBv4.Tests.Shell
 {
     [TestClass]
     public class Basic_Shell_Tests

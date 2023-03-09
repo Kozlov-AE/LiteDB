@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Helper class to modify your entity mapping to document. Can be used instead attribute decorates

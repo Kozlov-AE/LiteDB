@@ -4,12 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public partial class LiteEngine
     {
         /// <summary>
-        /// Upgrade datafile from v6 to new v7 format used in LiteDB 3
+        /// Upgrade datafile from v6 to new v7 format used in LiteDBv4 3
         /// </summary>
         public static bool Upgrade(string filename, string password = null, bool backup = true, int batchSize = 5000)
         {

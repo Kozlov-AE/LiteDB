@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq.Expressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
-    /// The LiteDB repository pattern. A simple way to access your documents in a single class with fluent query api
+    /// The LiteDBv4 repository pattern. A simple way to access your documents in a single class with fluent query api
     /// </summary>
     public class LiteRepository : IDisposable
     {
@@ -39,7 +39,7 @@ namespace LiteDB
         }
 
         /// <summary>
-        /// Starts LiteDB database using a connection string for file system database
+        /// Starts LiteDBv4 database using a connection string for file system database
         /// </summary>
         public LiteRepository(string connectionString, BsonMapper mapper = null)
             : this(new LiteDatabase(connectionString, mapper), true)
@@ -47,7 +47,7 @@ namespace LiteDB
         }
 
         /// <summary>
-        /// Starts LiteDB database using a connection string for file system database
+        /// Starts LiteDBv4 database using a connection string for file system database
         /// </summary>
         public LiteRepository(ConnectionString connectionString, BsonMapper mapper = null)
             : this(new LiteDatabase(connectionString, mapper), true)
@@ -55,7 +55,7 @@ namespace LiteDB
         }
 
         /// <summary>
-        /// Starts LiteDB database using a Stream disk
+        /// Starts LiteDBv4 database using a Stream disk
         /// </summary>
         public LiteRepository(Stream stream, BsonMapper mapper = null, string password = null)
             : this (new LiteDatabase(stream, mapper, password), true)
@@ -192,7 +192,7 @@ namespace LiteDB
         public List<T> Fetch<T>(Query query = null, string collectionName = null)
         {
             return this.Query<T>(collectionName)
-                .Where(query ?? LiteDB.Query.All())
+                .Where(query ?? LiteDBv4.Query.All())
                 .ToList();
         }
 
@@ -212,7 +212,7 @@ namespace LiteDB
         public T First<T>(Query query = null, string collectionName = null)
         {
             return this.Query<T>(collectionName)
-                .Where(query ?? LiteDB.Query.All())
+                .Where(query ?? LiteDBv4.Query.All())
                 .First();
         }
 
@@ -232,7 +232,7 @@ namespace LiteDB
         public T FirstOrDefault<T>(Query query = null, string collectionName = null)
         {
             return this.Query<T>(collectionName)
-                .Where(query ?? LiteDB.Query.All())
+                .Where(query ?? LiteDBv4.Query.All())
                 .FirstOrDefault();
         }
 
@@ -252,7 +252,7 @@ namespace LiteDB
         public T Single<T>(Query query = null, string collectionName = null)
         {
             return this.Query<T>(collectionName)
-                .Where(query ?? LiteDB.Query.All())
+                .Where(query ?? LiteDBv4.Query.All())
                 .Single();
         }
 
@@ -272,7 +272,7 @@ namespace LiteDB
         public T SingleOrDefault<T>(Query query = null, string collectionName = null)
         {
             return this.Query<T>(collectionName)
-                .Where(query ?? LiteDB.Query.All())
+                .Where(query ?? LiteDBv4.Query.All())
                 .SingleOrDefault();
         }
 

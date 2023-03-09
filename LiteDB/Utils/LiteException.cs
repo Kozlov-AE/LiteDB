@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
-    /// The main exception for LiteDB
+    /// The main exception for LiteDBv4
     /// </summary>
     public class LiteException : Exception
     {
@@ -75,7 +75,7 @@ namespace LiteDB
 
         internal static LiteException InvalidDatabase()
         {
-            return new LiteException(INVALID_DATABASE, "Datafile is not a LiteDB database.");
+            return new LiteException(INVALID_DATABASE, "Datafile is not a LiteDBv4 database.");
         }
 
         internal static LiteException InvalidDatabaseVersion(int version)

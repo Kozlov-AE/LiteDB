@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public partial class BsonMapper
     {

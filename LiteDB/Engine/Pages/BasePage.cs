@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public enum PageType { Empty = 0, Header = 1, Collection = 2, Index = 3, Data = 4, Extend = 5 }
 
@@ -171,7 +171,7 @@ namespace LiteDB
 
             this.WriteHeader(writer);
 
-            if (this.PageType != LiteDB.PageType.Empty)
+            if (this.PageType != LiteDBv4.PageType.Empty)
             {
                 this.WriteContent(writer);
             }

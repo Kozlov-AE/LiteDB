@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Internal class to deserialize a byte[] into a BsonDocument using BSON data format

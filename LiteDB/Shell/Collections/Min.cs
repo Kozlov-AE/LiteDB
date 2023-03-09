@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     [Help(
         Category = "Collection",

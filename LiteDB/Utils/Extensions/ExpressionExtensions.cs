@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal static class ExpressionExtensions
     {

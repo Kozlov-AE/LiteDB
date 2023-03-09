@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Reflection;
 
-namespace LiteDB.Tests.Engine
+namespace LiteDBv4.Tests.Engine
 {
     [TestClass]
     public class MapperInterface_Tests
@@ -56,8 +56,8 @@ namespace LiteDB.Tests.Engine
 
             //string dllName = this.GetType().Assembly.GetName().Name;
             //
-            //Assert.AreEqual("LiteDB.Tests.MapperInterfaceTest+MyClassImpl, " + dllName, bson1["Impl"].AsDocument["_type"].AsString);
-            //Assert.AreEqual("LiteDB.Tests.MapperInterfaceTest+MyClassImpl, " + dllName, bson2["Impl"].AsDocument["_type"].AsString);
+            //Assert.AreEqual("LiteDBv4.Tests.MapperInterfaceTest+MyClassImpl, " + dllName, bson1["Impl"].AsDocument["_type"].AsString);
+            //Assert.AreEqual("LiteDBv4.Tests.MapperInterfaceTest+MyClassImpl, " + dllName, bson2["Impl"].AsDocument["_type"].AsString);
             //Assert.AreEqual(false, bson3["Impl"].AsDocument.ContainsKey("_type"));
 
             var k1 = mapper.ToObject<MyClassWithInterface>(bson1);

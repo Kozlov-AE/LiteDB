@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Parse/Format storage unit format (kb/mb/gb)

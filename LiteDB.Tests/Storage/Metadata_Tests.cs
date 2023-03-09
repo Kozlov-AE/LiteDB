@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LiteDB.Tests.Storage
+namespace LiteDBv4.Tests.Storage
 {
     [TestClass]
     public class Metadata_Tests

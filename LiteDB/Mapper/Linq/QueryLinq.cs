@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// QueryLinq implement a query resolver to Linq expressions. If it's possible convert to Engine Query object (using index or full scan) will

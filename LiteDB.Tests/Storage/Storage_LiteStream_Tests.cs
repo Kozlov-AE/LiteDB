@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LiteDB.Tests.Storage
+namespace LiteDBv4.Tests.Storage
 {
     [TestClass]
     public class Storage_LiteStream_Tests
@@ -15,8 +15,8 @@ namespace LiteDB.Tests.Storage
         [TestMethod]
         public void Storage_Read_Write_Stream()
         {
-            var HELLO1 = "Hello World LiteDB 1 ".PadRight(300000, '-') + "\nEND";
-            var HELLO2 = "Hello World LiteDB 2 - END";
+            var HELLO1 = "Hello World LiteDBv4 1 ".PadRight(300000, '-') + "\nEND";
+            var HELLO2 = "Hello World LiteDBv4 2 - END";
 
             using (var file = new TempFile())
             using (var db = new LiteEngine(file.Filename))

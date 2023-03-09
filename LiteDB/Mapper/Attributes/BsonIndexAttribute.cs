@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Add an index in this entity property.

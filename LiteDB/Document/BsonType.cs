@@ -1,4 +1,4 @@
-﻿namespace LiteDB
+﻿namespace LiteDBv4
 {
     /// <summary>
     /// All supported BsonTypes in sort order

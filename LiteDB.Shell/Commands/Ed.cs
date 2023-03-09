@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace LiteDB.Shell.Commands
+namespace LiteDBv4.Shell.Commands
 {
     [Help(
         Category = "Shell",

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// A simple file helper tool with static methods

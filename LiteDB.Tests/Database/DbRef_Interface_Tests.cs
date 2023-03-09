@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 
-namespace LiteDB.Tests.Database
+namespace LiteDBv4.Tests.Database
 {
     #region Model
 

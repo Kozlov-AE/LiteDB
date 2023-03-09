@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     public class Display
     {

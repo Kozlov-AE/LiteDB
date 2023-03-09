@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 
-namespace LiteDB.Tests.Concurrency
+namespace LiteDBv4.Tests.Concurrency
 {
     [TestClass]
     public class Locker_Tests

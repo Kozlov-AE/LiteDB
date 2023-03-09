@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using System.IO;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Encryption AES wrapper to encrypt data pages

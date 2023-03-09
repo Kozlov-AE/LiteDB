@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Using Expressions is the easy and fast way to create classes, structs, get/set fields/properties. But it not works in NET35

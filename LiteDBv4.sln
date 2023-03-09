@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteDB", "LiteDB\LiteDB.csproj", "{9497DA19-1FCA-4C2E-A1AB-8DFAACBC76E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteDBv4", "LiteDB\LiteDBv4.csproj", "{9497DA19-1FCA-4C2E-A1AB-8DFAACBC76E1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteDB.Tests", "LiteDB.Tests\LiteDB.Tests.csproj", "{DC3C8B07-0FB3-45B3-BE60-04609DBC0208}"
 EndProject

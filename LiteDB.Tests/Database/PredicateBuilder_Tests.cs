@@ -5,7 +5,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace LiteDB.Tests.Database
+namespace LiteDBv4.Tests.Database
 {
     #region Model
 

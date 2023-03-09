@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// A logger class to log all information about database. Used with levels. Level = 0 - 255

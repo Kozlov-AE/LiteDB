@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Interface to implement old datafile format reader. Implements V6

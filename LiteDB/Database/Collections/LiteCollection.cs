@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public sealed partial class LiteCollection<T>
     {

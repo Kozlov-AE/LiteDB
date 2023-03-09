@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     public class InputCommand
     {

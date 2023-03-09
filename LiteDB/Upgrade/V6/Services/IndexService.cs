@@ -18,7 +18,7 @@ namespace LiteDB_V6
         /// <summary>
         /// Get a node inside a page using PageAddress - Returns null if address IsEmpty
         /// </summary>
-        public IndexNode GetNode(LiteDB.PageAddress address)
+        public IndexNode GetNode(LiteDBv4.PageAddress address)
         {
             if (address.IsEmpty) return null;
             var page = _pager.GetPage<IndexPage>(address.PageID);

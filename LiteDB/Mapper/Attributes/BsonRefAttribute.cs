@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Indicate that field are not persisted inside this document but it's a reference for another document (DbRef)

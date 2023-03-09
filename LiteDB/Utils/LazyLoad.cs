@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// LazyLoad class for .NET 3.5

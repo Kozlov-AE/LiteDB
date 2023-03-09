@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using LiteDB.Shell.Commands;
+using LiteDBv4.Shell.Commands;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     internal class ShellProgram
     {

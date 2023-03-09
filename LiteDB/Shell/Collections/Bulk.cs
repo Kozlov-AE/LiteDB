@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     [Help(
         Category = "Collection", 

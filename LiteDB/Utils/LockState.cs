@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Used to control lock state.

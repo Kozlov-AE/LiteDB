@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     #region Delegates
 

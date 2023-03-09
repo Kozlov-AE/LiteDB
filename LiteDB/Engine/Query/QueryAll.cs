@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// All is an Index Scan operation

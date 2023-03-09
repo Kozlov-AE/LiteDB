@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public interface IDiskService : IDisposable
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Represent a Bson Value used in BsonDocument

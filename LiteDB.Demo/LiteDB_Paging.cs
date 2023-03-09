@@ -1,4 +1,4 @@
-﻿using LiteDB;
+﻿using LiteDBv4;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LiteDB.Demo
+namespace LiteDBv4.Demo
 {
     class LiteDB_Paging : ITest
     {

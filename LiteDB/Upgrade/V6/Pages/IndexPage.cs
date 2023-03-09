@@ -15,7 +15,7 @@ namespace LiteDB_V6
             this.Nodes = new Dictionary<ushort, IndexNode>();
         }
 		
-        protected override void ReadContent(LiteDB.ByteReader reader)
+        protected override void ReadContent(LiteDBv4.ByteReader reader)
         {
             this.Nodes = new Dictionary<ushort, IndexNode>(this.ItemCount);
 
@@ -27,7 +27,7 @@ namespace LiteDB_V6
                 var node = new IndexNode(levels);
 
                 node.Page = this;
-                node.Position = new LiteDB.PageAddress(this.PageID, index);
+                node.Position = new LiteDBv4.PageAddress(this.PageID, index);
                 node.KeyLength = reader.ReadUInt16();
                 node.Key = ReadBsonValue(reader, node.KeyLength);
                 node.DataBlock = reader.ReadPageAddress();
@@ -44,14 +44,14 @@ namespace LiteDB_V6
         /// <summary>
         /// Write a custom ReadBsonValue because BsonType changed from v6 to v7
         /// </summary>
-        private LiteDB.BsonValue ReadBsonValue(LiteDB.ByteReader reader, ushort length)
+        private LiteDBv4.BsonValue ReadBsonValue(LiteDBv4.ByteReader reader, ushort length)
         {
             var type = reader.ReadByte();
 
             // using numbers because BsonType changed
             switch (type)
             {
-                case 1: return LiteDB.BsonValue.Null;
+                case 1: return LiteDBv4.BsonValue.Null;
 
                 case 2: return reader.ReadInt32();
                 case 3: return reader.ReadInt64();
@@ -59,8 +59,8 @@ namespace LiteDB_V6
 
                 case 5: return reader.ReadString(length);
 
-                case 6: return new LiteDB.BsonReader(false).ReadDocument(reader);
-                case 7: return new LiteDB.BsonReader(false).ReadArray(reader);
+                case 6: return new LiteDBv4.BsonReader(false).ReadDocument(reader);
+                case 7: return new LiteDBv4.BsonReader(false).ReadArray(reader);
 
                 case 8: return reader.ReadBytes(length);
                 case 9: return reader.ReadObjectId();
@@ -69,8 +69,8 @@ namespace LiteDB_V6
                 case 11: return reader.ReadBoolean();
                 case 12: return reader.ReadDateTime();
 
-                case 0: return LiteDB.BsonValue.MinValue;
-                case 13: return LiteDB.BsonValue.MaxValue;
+                case 0: return LiteDBv4.BsonValue.MinValue;
+                case 13: return LiteDBv4.BsonValue.MaxValue;
             }
 
             throw new NotImplementedException();

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal class HeaderPage : BasePage
     {
@@ -11,9 +11,9 @@ namespace LiteDB
         public override PageType PageType { get { return PageType.Header; } }
 
         /// <summary>
-        /// Header info the validate that datafile is a LiteDB file (27 bytes)
+        /// Header info the validate that datafile is a LiteDBv4 file (27 bytes)
         /// </summary>
-        private const string HEADER_INFO = "** This is a LiteDB file **";
+        private const string HEADER_INFO = "** This is a LiteDBv4 file **";
 
         /// <summary>
         /// Datafile specification version

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using LiteDB;
+using LiteDBv4;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LiteDB.Tests.Database
+namespace LiteDBv4.Tests.Database
 {
     #region Model
 

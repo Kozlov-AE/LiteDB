@@ -5,7 +5,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace LiteDB.Tests.Mapper
+namespace LiteDBv4.Tests.Mapper
 {
     #region Model
 

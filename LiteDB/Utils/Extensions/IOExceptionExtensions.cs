@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Runtime.InteropServices;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal static class IOExceptionExtensions
     {

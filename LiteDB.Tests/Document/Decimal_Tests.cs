@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LiteDB.Tests.Document
+namespace LiteDBv4.Tests.Document
 {
     [TestClass]
     public class Decimal_Tests

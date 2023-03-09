@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal class ByteWriter
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Implement a Index service - Add/Remove index nodes on SkipList

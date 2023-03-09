@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal class ExpressionOperators
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// A class to control locking disposal. Can be a "new lock" - when a lock is not not coming from other lock state

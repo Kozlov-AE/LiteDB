@@ -30,12 +30,12 @@ namespace LiteDB_V6
         /// <summary>
         /// Head page address for this index
         /// </summary>
-        public LiteDB.PageAddress HeadNode { get; set; }
+        public LiteDBv4.PageAddress HeadNode { get; set; }
 
         /// <summary>
         /// A link pointer to tail node
         /// </summary>
-        public LiteDB.PageAddress TailNode { get; set; }
+        public LiteDBv4.PageAddress TailNode { get; set; }
 
         /// <summary>
         /// Get a reference for the free list index page - its private list per collection/index (must be a Field to be used as reference parameter)
@@ -51,7 +51,7 @@ namespace LiteDB_V6
         {
             this.Field = string.Empty;
             this.Unique = false;
-            this.HeadNode = LiteDB.PageAddress.Empty;
+            this.HeadNode = LiteDBv4.PageAddress.Empty;
             this.FreeIndexPageID = uint.MaxValue;
         }
     }

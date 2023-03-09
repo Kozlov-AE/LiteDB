@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LiteDB.Tests.Engine
+namespace LiteDBv4.Tests.Engine
 {
     [TestClass]
     public class ObjectId_Tests

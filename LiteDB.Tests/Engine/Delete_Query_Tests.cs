@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LiteDB.Tests.Engine
+namespace LiteDBv4.Tests.Engine
 {
     [TestClass]
     public class Delete_Query_Tests

@@ -7,7 +7,7 @@
 //using System.Collections.Generic;
 //using System.Text;
 
-//namespace LiteDB.Tests.Storage
+//namespace LiteDBv4.Tests.Storage
 //{
 //    [TestClass]
 //    public class Store_Local_File_Tests
@@ -15,7 +15,7 @@
 //        [TestMethod]
 //        public void Store_Local_File()
 //        {
-//            var pdb = "LiteDB.pdb";
+//            var pdb = "LiteDBv4.pdb";
 //            var len = new FileInfo(pdb).Length; // get original file length
 
 //            using (var file = new TempFile())

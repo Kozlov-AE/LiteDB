@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace LiteDB.Shell.Commands
+namespace LiteDBv4.Shell.Commands
 {
     internal class Help : IShellCommand
     {

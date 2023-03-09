@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Indicate that property will be used as BsonDocument Id

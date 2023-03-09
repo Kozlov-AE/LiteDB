@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.IO.Compression;
 
-namespace LiteDB.Tests.Document
+namespace LiteDBv4.Tests.Document
 {
     [TestClass]
     public class Bson_Tests

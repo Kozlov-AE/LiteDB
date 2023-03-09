@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
-    /// The LiteDB database. Used for create a LiteDB instance and use all storage resources. It's the database connection
+    /// The LiteDBv4 database. Used for create a LiteDBv4 instance and use all storage resources. It's the database connection
     /// </summary>
     public partial class LiteDatabase : IDisposable
     {
@@ -37,7 +37,7 @@ namespace LiteDB
         #region Ctor
 
         /// <summary>
-        /// Starts LiteDB database using a connection string for file system database
+        /// Starts LiteDBv4 database using a connection string for file system database
         /// </summary>
         public LiteDatabase(string connectionString, BsonMapper mapper = null, Logger log = null)
             : this(new ConnectionString(connectionString), mapper, log)
@@ -45,7 +45,7 @@ namespace LiteDB
         }
 
         /// <summary>
-        /// Starts LiteDB database using a connection string for file system database
+        /// Starts LiteDBv4 database using a connection string for file system database
         /// </summary>
         public LiteDatabase(ConnectionString connectionString, BsonMapper mapper = null, Logger log = null)
         {
@@ -80,7 +80,7 @@ namespace LiteDB
         }
 
         /// <summary>
-        /// Starts LiteDB database using a Stream disk
+        /// Starts LiteDBv4 database using a Stream disk
         /// </summary>
         public LiteDatabase(Stream stream, BsonMapper mapper = null, string password = null, bool disposeStream = false)
         {
@@ -93,7 +93,7 @@ namespace LiteDB
         }
 
         /// <summary>
-        /// Starts LiteDB database using a custom IDiskService with all parameters available
+        /// Starts LiteDBv4 database using a custom IDiskService with all parameters available
         /// </summary>
         /// <param name="diskService">Custom implementation of persist data layer</param>
         /// <param name="mapper">Instance of BsonMapper that map poco classes to document</param>

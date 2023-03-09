@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Implement NTFS File disk

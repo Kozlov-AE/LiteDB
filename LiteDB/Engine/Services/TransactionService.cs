@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Manages all transactions and grantees concurrency and recovery

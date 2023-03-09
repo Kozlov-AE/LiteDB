@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Storage is a special collection to store files/streams. Transactions are not supported in Upload/Download operations.

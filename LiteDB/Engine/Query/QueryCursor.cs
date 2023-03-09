@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Include all components to be used in execution of a qery

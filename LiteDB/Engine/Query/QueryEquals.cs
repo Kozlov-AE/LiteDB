@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal class QueryEquals : Query
     {

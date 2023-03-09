@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
 
-namespace LiteDB.Tests.Engine
+namespace LiteDBv4.Tests.Engine
 {
     [TestClass]
     public class Performance_Tests

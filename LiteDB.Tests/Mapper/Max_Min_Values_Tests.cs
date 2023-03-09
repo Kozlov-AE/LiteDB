@@ -6,7 +6,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Drawing;
 
-namespace LiteDB.Tests.Mapper
+namespace LiteDBv4.Tests.Mapper
 {
     #region Model
 

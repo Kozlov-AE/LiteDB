@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB.Shell.Commands
+namespace LiteDBv4.Shell.Commands
 {
     [Help(
         Category = "Shell",

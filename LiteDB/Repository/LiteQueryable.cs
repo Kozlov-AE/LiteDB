@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
-    /// An IQueryable-like class to write fluent query in LiteDB
+    /// An IQueryable-like class to write fluent query in LiteDBv4
     /// </summary>
     public class LiteQueryable<T>
     {

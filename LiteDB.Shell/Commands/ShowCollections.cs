@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LiteDB.Shell.Commands
+namespace LiteDBv4.Shell.Commands
 {
     [Help(
         Category = "Shell",

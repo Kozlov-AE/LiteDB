@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     [Help(
         Category = "FileStorage",

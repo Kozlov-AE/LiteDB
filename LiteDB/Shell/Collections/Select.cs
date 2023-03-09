@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     [Help(
         Category = "Collection",

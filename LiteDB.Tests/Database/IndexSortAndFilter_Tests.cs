@@ -2,7 +2,7 @@
 //using System.Collections.Generic;
 //using System.Linq;
 
-//namespace LiteDB.Tests.Database
+//namespace LiteDBv4.Tests.Database
 //{
 //    [TestClass]
 //    public class IndexSortAndFilterTest

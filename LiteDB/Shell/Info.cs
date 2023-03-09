@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     internal class Info : ICommand
     {

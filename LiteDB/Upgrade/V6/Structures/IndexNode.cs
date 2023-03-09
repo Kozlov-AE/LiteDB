@@ -11,17 +11,17 @@ namespace LiteDB_V6
         /// <summary>
         /// Position of this node inside a IndexPage - Store only Position.Index
         /// </summary>
-        public LiteDB.PageAddress Position { get; set; }
+        public LiteDBv4.PageAddress Position { get; set; }
 
         /// <summary>
         /// Pointer to prev value (used in skip lists - Prev.Length = Next.Length)
         /// </summary>
-        public LiteDB.PageAddress[] Prev { get; set; }
+        public LiteDBv4.PageAddress[] Prev { get; set; }
 
         /// <summary>
         /// Pointer to next value (used in skip lists - Prev.Length = Next.Length)
         /// </summary>
-        public LiteDB.PageAddress[] Next { get; set; }
+        public LiteDBv4.PageAddress[] Next { get; set; }
 
         /// <summary>
         /// Length of key - used for calculate Node size
@@ -31,12 +31,12 @@ namespace LiteDB_V6
         /// <summary>
         /// The object value that was indexed
         /// </summary>
-        public LiteDB.BsonValue Key { get; set; }
+        public LiteDBv4.BsonValue Key { get; set; }
 
         /// <summary>
         /// Reference for a datablock - the value
         /// </summary>
-        public LiteDB.PageAddress DataBlock { get; set; }
+        public LiteDBv4.PageAddress DataBlock { get; set; }
 
         /// <summary>
         /// Get page reference
@@ -53,15 +53,15 @@ namespace LiteDB_V6
 
         public IndexNode(byte level)
         {
-            this.Position = LiteDB.PageAddress.Empty;
-            this.DataBlock = LiteDB.PageAddress.Empty;
-            this.Prev = new LiteDB.PageAddress[level];
-            this.Next = new LiteDB.PageAddress[level];
+            this.Position = LiteDBv4.PageAddress.Empty;
+            this.DataBlock = LiteDBv4.PageAddress.Empty;
+            this.Prev = new LiteDBv4.PageAddress[level];
+            this.Next = new LiteDBv4.PageAddress[level];
 
             for (var i = 0; i < level; i++)
             {
-                this.Prev[i] = LiteDB.PageAddress.Empty;
-                this.Next[i] = LiteDB.PageAddress.Empty;
+                this.Prev[i] = LiteDBv4.PageAddress.Empty;
+                this.Next[i] = LiteDBv4.PageAddress.Empty;
             }
         }
     }

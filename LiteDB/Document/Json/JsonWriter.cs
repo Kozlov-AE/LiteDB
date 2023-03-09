@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal class JsonWriter
     {

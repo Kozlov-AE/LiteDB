@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     [Serializable]
     internal class ShellException : Exception

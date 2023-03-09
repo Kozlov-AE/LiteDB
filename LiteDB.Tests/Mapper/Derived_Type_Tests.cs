@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace LiteDB.Tests.Mapper
+namespace LiteDBv4.Tests.Mapper
 {
     #region Model
 

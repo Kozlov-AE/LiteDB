@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal static class StreamExtensions
     {

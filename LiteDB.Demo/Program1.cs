@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using LiteDB;
+using LiteDBv4;
 
 namespace litedb_test
 {

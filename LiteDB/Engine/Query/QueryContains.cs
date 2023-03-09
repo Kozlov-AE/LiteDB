@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Contains query do not work with index, only full scan

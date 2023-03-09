@@ -5,7 +5,7 @@ namespace LiteDB_V6
 {
     internal class HeaderPage : BasePage
     {
-        private const string HEADER_INFO = "** This is a LiteDB file **";
+        private const string HEADER_INFO = "** This is a LiteDBv4 file **";
         private const byte FILE_VERSION = 6;
 
         public override PageType PageType { get { return PageType.Header; } }
@@ -28,7 +28,7 @@ namespace LiteDB_V6
             this.CollectionPages = new Dictionary<string, uint>(StringComparer.OrdinalIgnoreCase);
         }
 
-        protected override void ReadContent(LiteDB.ByteReader reader)
+        protected override void ReadContent(LiteDBv4.ByteReader reader)
         {
             var info = reader.ReadString(HEADER_INFO.Length);
             var ver = reader.ReadByte();

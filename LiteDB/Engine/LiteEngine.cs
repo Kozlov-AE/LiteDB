@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// A public class that take care of all engine data structure access - it´s basic implementation of a NoSql database

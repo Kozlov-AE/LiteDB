@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// A class that read a json string using a tokenizer (without regex)

@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LiteDB.Tests.Mapper
+namespace LiteDBv4.Tests.Mapper
 {
     #region Model
 

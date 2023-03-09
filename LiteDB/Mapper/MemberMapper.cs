@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Internal representation for a .NET member mapped to BsonDocument

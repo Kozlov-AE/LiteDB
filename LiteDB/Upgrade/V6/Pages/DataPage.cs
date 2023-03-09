@@ -17,7 +17,7 @@ namespace LiteDB_V6
             this.DataBlocks = new Dictionary<ushort, DataBlock>();
         }
 
-        protected override void ReadContent(LiteDB.ByteReader reader)
+        protected override void ReadContent(LiteDBv4.ByteReader reader)
         {
             this.DataBlocks = new Dictionary<ushort, DataBlock>(ItemCount);
 
@@ -26,7 +26,7 @@ namespace LiteDB_V6
                 var block = new DataBlock();
 
                 block.Page = this;
-                block.Position = new LiteDB.PageAddress(this.PageID, reader.ReadUInt16());
+                block.Position = new LiteDBv4.PageAddress(this.PageID, reader.ReadUInt16());
                 block.ExtendPageID = reader.ReadUInt32();
 
                 for (var j = 0; j < CollectionIndex.INDEX_PER_COLLECTION; j++)

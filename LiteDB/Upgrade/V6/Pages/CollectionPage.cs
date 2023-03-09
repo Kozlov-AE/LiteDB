@@ -30,7 +30,7 @@ namespace LiteDB_V6
             }
         }
 
-        protected override void ReadContent(LiteDB.ByteReader reader)
+        protected override void ReadContent(LiteDBv4.ByteReader reader)
         {
             this.CollectionName = reader.ReadString();
             this.FreeDataPageID = reader.ReadUInt32();

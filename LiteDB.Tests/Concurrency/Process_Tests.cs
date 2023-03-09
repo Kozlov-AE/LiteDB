@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LiteDB.Tests.Concurrency
+namespace LiteDBv4.Tests.Concurrency
 {
     [TestClass]
     public class Process_Tests

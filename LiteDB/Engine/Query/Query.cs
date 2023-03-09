@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     /// <summary>
     /// Class helper to create query using indexes in database. All methods are statics.

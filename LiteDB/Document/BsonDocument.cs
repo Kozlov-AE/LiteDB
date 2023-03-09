@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public class BsonDocument : BsonValue, IDictionary<string, BsonValue>
     {

@@ -3,7 +3,7 @@
 //using System.IO;
 //using System.Linq;
 
-//namespace LiteDB.Tests
+//namespace LiteDBv4.Tests
 //{
 //    public class MissingIdDoc
 //    {

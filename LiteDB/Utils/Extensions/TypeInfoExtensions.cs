@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     internal static class TypeInfoExtensions
     {

@@ -1,11 +1,11 @@
-﻿using LiteDB.Shell;
+﻿using LiteDBv4.Shell;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace LiteDB
+namespace LiteDBv4
 {
     public partial class LiteEngine
     {

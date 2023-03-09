@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace LiteDB.Tests.Engine
+namespace LiteDBv4.Tests.Engine
 {
     [TestClass]
     public class IndexOrder_Tests

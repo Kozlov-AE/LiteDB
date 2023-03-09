@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
-namespace LiteDB.Shell
+namespace LiteDBv4.Shell
 {
     internal class BaseCollection
     {

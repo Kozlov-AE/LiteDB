@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace LiteDB.Tests.Repository
+namespace LiteDBv4.Tests.Repository
 {
     #region Model
 

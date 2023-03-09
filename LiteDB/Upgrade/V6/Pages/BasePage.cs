@@ -43,7 +43,7 @@ namespace LiteDB_V6
         /// </summary>
         public static BasePage ReadPage(byte[] buffer)
         {
-            var reader = new LiteDB.ByteReader(buffer);
+            var reader = new LiteDBv4.ByteReader(buffer);
 
             var pageID = reader.ReadUInt32();
             var pageType = (PageType)reader.ReadByte();
@@ -60,7 +60,7 @@ namespace LiteDB_V6
             return checked((long)pageCount * BasePage.PAGE_SIZE);
         }
 
-        private void ReadHeader(LiteDB.ByteReader reader)
+        private void ReadHeader(LiteDBv4.ByteReader reader)
         {
             // first 5 bytes (pageID + pageType) was readed before class create
             // this.PageID
@@ -73,6 +73,6 @@ namespace LiteDB_V6
             reader.Skip(8); // reserved 8 bytes
         }
 
-        protected abstract void ReadContent(LiteDB.ByteReader reader);
+        protected abstract void ReadContent(LiteDBv4.ByteReader reader);
     }
 }

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using LiteDB;
+using LiteDBv4;
 
 namespace LiteDB_V6
 {
-    internal class DbReader : LiteDB.IDbReader
+    internal class DbReader : LiteDBv4.IDbReader
     {
         private PageService _pager;
         private CollectionService _collections;

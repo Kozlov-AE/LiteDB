@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LiteDB.Tests.Shell
+namespace LiteDBv4.Tests.Shell
 {
     #region Model
 
@@ -34,8 +34,8 @@ namespace LiteDB.Tests.Shell
         {
             using (var db = new LiteDatabase(new MemoryStream()))
             {
-                var typeA = typeof(ClassA).FullName + ", LiteDB.Tests";
-                var typeB = typeof(ClassB).FullName + ", LiteDB.Tests";
+                var typeA = typeof(ClassA).FullName + ", LiteDBv4.Tests";
+                var typeB = typeof(ClassB).FullName + ", LiteDBv4.Tests";
 
                 var col = db.GetCollection<IBase>("col");
 
